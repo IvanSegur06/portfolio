@@ -1,0 +1,20 @@
+html, body {
+    height: 100%; /* El body debe ocupar toda la altura */
+    margin: 0; /* Elimina los márgenes por defecto */
+    padding: 0; /* Elimina el padding por defecto */
+}
+
+*{
+    background-color: #22223a;
+    color: #ffffff;
+}
+
+body {
+    display: flex; /* Flexbox para facilitar el layout */
+    flex-direction: column; /* Organiza los elementos de arriba hacia abajo */
+    min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la ventana */
+}
+
+main {
+    flex-grow: 1; /* Permite que el main ocupe el espacio restante */
+}
