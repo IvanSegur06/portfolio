@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Proyecto con Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/bootstrap.min.js" defer></script>
-    <script src="js/script.js" defer></script>
-    
+
+
 </head>
+
 <body>
-    
+
     <header>
         <div class="container">
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-              <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link">Experience</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-              </ul>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                </ul>
             </header>
-          </div>
+        </div>
     </header>
 
     <main>
-        
+
+        <div>
+
+            <h1 class ="text-center">Hi, I'm Iván</h1>
+            <h1 class ="text-center">Computer Engineer<span class = "emoji">💻</span></h1>
+
+        </div>
+
         <div class="container mt-5">
             <div class="row">
                 <!-- Experiencia -->
-                <div class="col-12 mb-3">
+                <div class="col-12 mb-3" id="experience">
                     <h2 class="text-center">Experience</h2>
                 </div>
-                
+
                 <!-- Proyectos -->
-                <div class="col-12 mb-3">
+                <div class="col-12 mb-3" id="projects">
                     <h2 class="text-center">Projects</h2>
                 </div>
-                
+
                 <!-- Tecnologías -->
-                <div class="col-12 mb-3">
+                <div class="col-12 mb-3" id="skills">
                     <h2 class="text-center">Skills</h2>
                 </div>
             </div>
@@ -52,6 +60,8 @@
         <p class="text-center">© 2025 - Portfolio Iván Segura Carmona</p>
     </footer>
 
-
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/script.js" defer></script>
 </body>
+
 </html>

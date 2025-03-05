@@ -18,3 +18,19 @@ body {
 main {
     flex-grow: 1; /* Permite que el main ocupe el espacio restante */
 }
+
+
+.emoji {
+    font-size: 3rem; /* Tamaño grande para el emoji */
+    transition: all 0.3s ease; /* Suaviza la transición cuando el usuario pasa el ratón */
+    display: inline-block;
+    animation: bounce 1s infinite; /* Animación de rebote */
+    text-shadow: 2px 2px 5px rgba(255, 6, 6, 0.5); /* Añade sombra para darle un toque visual */
+}
+
+/* Efecto al pasar el ratón (hover) */
+.emoji:hover {
+    transform: scale(1.2); /* Aumenta el tamaño cuando el ratón está encima */
+    color: #f4a261; /* Cambia el color del emoji al pasar el ratón */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Aumenta la sombra al pasar el ratón */
+}
