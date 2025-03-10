@@ -48,3 +48,11 @@ main {
     border-radius: 5px;
     padding: 8px 15px;
 }
+
+.card-body {
+    color: #ffffff;
+}
+
+.card-subtitle {
+    color: #9e9d9d;
+}

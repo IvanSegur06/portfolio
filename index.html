@@ -14,32 +14,46 @@
 <body>
 
     <header>
-        <div class="container">
-            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#experience" class="nav-link ">Experience</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" ><img src="img/5495723.png" class = "img-fluid w-25" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                  </li>
                 </ul>
-            </header>
-        </div>        
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
-
-        <div>
-
-           
-
-        </div>
         
         <div class="container">
             <div class="row">
-                <div class="col-md-6 p-3">
-                    <h1 class ="text-center">Hi, I'm Iván</h1>
-                    <h1 class ="text-center">Computer Engineer<span class = "emoji">💻</span></h1>
+                <div class="col-md-6 p-3 ">
+                    <h1 class ="text-center ">Hi, I'm Iván</h1>
+                    <h1 class ="text-center">Computer Engineer<span class = "emoji">👨‍💻</span></h1>
+                    <p>Currently in my final year of Computer Engineering, passionate about cybersecurity and software development.  
+                        Gaining hands-on experience in cybersecurity while working, focusing on security analysis, riskassessment, 
+                        and implementing protective measures.  
+                        Always eager to learn and apply cutting-edge security practices to enhance system resilience.</p>
                 </div>
-                <div class="col-md-6 p-3">
+                <div class="col-md-6 p-3 justify-content-center">
                     <img src="img/istockphoto-1332100919-612x612.jpg" alt="" class= "w-50 rounded-circle"> 
                 </div>
             
@@ -50,20 +64,63 @@
                 <!-- Experiencia -->
                 <div class="col-12 mb-3" id="experience">
                     <h2 class="text-center">Experience</h2>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Cybersecurity Intern - Accenture</h5>
+                            <h6 class="card-subtitle mb-2">2025 - Present</h6>
+                            <p class="card-text">Working on security analysis, risk assessment, and implementation of protective measures to enhance system resilience.</p>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ingeniería Informática en Sistemas de la Información - Universidad Pablo de Olavide</h5>
+                            <h6 class="card-subtitle mb-2">2020 - 2025</h6>
+                            <p class="card-text">Currently studying Computer Engineering with a focus on Information Systems. 
+                                Gaining knowledge in software development, system architecture, databases, and cybersecurity, 
+                                preparing for a career in tech solutions and innovation.</p>
+                        </div>                        
+                    </div>
                 </div>
+                
 
                 <!-- Proyectos -->
                 <div class="col-12 mb-3" id="projects">
                     <h2 class="text-center">Projects</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="img/project1.jpg" class="card-img-top" alt="Project 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Biclustering App</h5>
+                                    <p class="card-text">A bioinformatics application for testing biclustering algorithms on biological datasets.</p>
+                                    <a href="#" class="btn btn-primary">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="img/project2.jpg" class="card-img-top" alt="Project 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cybersecurity Dashboard</h5>
+                                    <p class="card-text">A real-time monitoring tool for security threats and risk assessment.</p>
+                                    <a href="#" class="btn btn-primary">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
 
                 <!-- Tecnologías -->
                 <div class="col-12 mb-3" id="skills">
                     <h2 class="text-center">Skills</h2>
+                    <div class="row text-center">
+                        <div class="col-md-3"><span class="badge bg-primary p-2">Python</span></div>
+                        <div class="col-md-3"><span class="badge bg-secondary p-2">Cybersecurity</span></div>
+                        <div class="col-md-3"><span class="badge bg-success p-2">Java</span></div>
+                        <div class="col-md-3"><span class="badge bg-danger p-2">Bootstrap</span></div>
+                    </div>
                 </div>
             </div>
         </div>
-
 
     </main>
 
