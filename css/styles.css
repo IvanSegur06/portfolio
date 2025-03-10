@@ -56,3 +56,42 @@ main {
 .card-subtitle {
     color: #9e9d9d;
 }
+
+.navbar-toggler-icon {
+    background-color: transparent; /* El fondo debe ser transparente */
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    background-color: white; /* Cambia las líneas del icono a blanco */
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+    position: relative;
+    width: 30px;
+    height: 3px;
+    background-color: white; /* Cambia la línea central a blanco */
+    display: block;
+}
+
+.navbar-toggler-icon::before, .navbar-toggler-icon::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white; /* Cambia el color de las otras dos líneas */
+    left: 0;
+}
+
+.navbar-toggler-icon::before {
+    top: -8px; /* Ajusta la posición de la primera línea */
+}
+
+.navbar-toggler-icon::after {
+    bottom: -8px; /* Ajusta la posición de la tercera línea */
+}
+
+.navbar-toggler:focus {
+     box-shadow: None; /* Elimina cualquier sombra que se pueda generar al hacer clic */
+}
