@@ -2,11 +2,18 @@ html, body {
     height: 100%; /* El body debe ocupar toda la altura */
     margin: 0; /* Elimina los márgenes por defecto */
     padding: 0; /* Elimina el padding por defecto */
+   
 }
 
+
+
 *{
-    background-color: #22223a;
+    background-color: #1f1e27;
     color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #9480bb; /* Cambia el color de los títulos */
 }
 
 body {
@@ -95,3 +102,17 @@ main {
 .navbar-toggler:focus {
      box-shadow: None; /* Elimina cualquier sombra que se pueda generar al hacer clic */
 }
+
+.card-img-top {
+    height: 200px; /* Ajusta según necesites */
+    width: 50%; /* Ajusta según necesites */
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+}
+
+
+.btn:hover {
+    transform: scale(1.2); /* Aumenta el tamaño cuando el ratón está encima */
+    color: #1941f1; /* Cambia el color del emoji al pasar el ratón */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Aumenta la sombra al pasar el ratón */
+}
+
