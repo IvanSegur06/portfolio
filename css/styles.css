@@ -1,8 +1,8 @@
 html, body {
-    height: 100%; /* El body debe ocupar toda la altura */
-    margin: 0; /* Elimina los márgenes por defecto */
-    padding: 0; /* Elimina el padding por defecto */
-   
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Verdana
 }
 
 
@@ -13,33 +13,33 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #9480bb; /* Cambia el color de los títulos */
+    color: #9480bb;
 }
 
 body {
-    display: flex; /* Flexbox para facilitar el layout */
-    flex-direction: column; /* Organiza los elementos de arriba hacia abajo */
-    min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la ventana */
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
 }
 
 main {
-    flex-grow: 1; /* Permite que el main ocupe el espacio restante */
+    flex-grow: 1; 
 }
 
 
 .emoji {
-    font-size: 3rem; /* Tamaño grande para el emoji */
-    transition: all 0.3s ease; /* Suaviza la transición cuando el usuario pasa el ratón */
+    font-size: 3rem;
+    transition: all 0.3s ease;
     display: inline-block;
-    animation: bounce 1s infinite; /* Animación de rebote */
-    text-shadow: 2px 2px 5px rgba(255, 6, 6, 0.5); /* Añade sombra para darle un toque visual */
+    animation: bounce 1s infinite; 
+    text-shadow: 2px 2px 5px rgba(255, 6, 6, 0.5);
 }
 
-/* Efecto al pasar el ratón (hover) */
+
 .emoji:hover {
-    transform: scale(1.2); /* Aumenta el tamaño cuando el ratón está encima */
-    color: #f4a261; /* Cambia el color del emoji al pasar el ratón */
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Aumenta la sombra al pasar el ratón */
+    transform: scale(1.2);
+    color: #f4a261; 
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
 .nav-link {
@@ -65,12 +65,12 @@ main {
 }
 
 .navbar-toggler-icon {
-    background-color: transparent; /* El fondo debe ser transparente */
+    background-color: transparent; 
 }
 
 .navbar-toggler-icon::before,
 .navbar-toggler-icon::after {
-    background-color: white; /* Cambia las líneas del icono a blanco */
+    background-color: white;
 }
 
 .navbar-toggler-icon {
@@ -78,7 +78,7 @@ main {
     position: relative;
     width: 30px;
     height: 3px;
-    background-color: white; /* Cambia la línea central a blanco */
+    background-color: white; 
     display: block;
 }
 
@@ -87,32 +87,32 @@ main {
     position: absolute;
     width: 30px;
     height: 3px;
-    background-color: white; /* Cambia el color de las otras dos líneas */
+    background-color: white; 
     left: 0;
 }
 
 .navbar-toggler-icon::before {
-    top: -8px; /* Ajusta la posición de la primera línea */
+    top: -8px; 
 }
 
 .navbar-toggler-icon::after {
-    bottom: -8px; /* Ajusta la posición de la tercera línea */
+    bottom: -8px; 
 }
 
 .navbar-toggler:focus {
-     box-shadow: None; /* Elimina cualquier sombra que se pueda generar al hacer clic */
+     box-shadow: None; 
 }
 
 .card-img-top {
-    height: 200px; /* Ajusta según necesites */
-    width: 50%; /* Ajusta según necesites */
-    object-fit: cover; /* Recorta la imagen sin deformarla */
+    height: 200px; 
+    width: 50%; 
+    object-fit: cover;
 }
 
 
 .btn:hover {
-    transform: scale(1.2); /* Aumenta el tamaño cuando el ratón está encima */
-    color: #1941f1; /* Cambia el color del emoji al pasar el ratón */
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Aumenta la sombra al pasar el ratón */
+    transform: scale(1.2);
+    color: #1941f1; 
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
